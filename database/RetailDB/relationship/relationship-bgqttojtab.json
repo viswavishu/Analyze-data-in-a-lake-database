@@ -1,0 +1,26 @@
+{
+	"name": "relationship-bgqttojtab",
+	"properties": {
+		"Name": "relationship-bgqttojtab",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "RetailDB"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Product",
+		"ToTableName": "SalesOrder",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ProductId",
+				"ToColumnName": "ProductId"
+			}
+		],
+		"RelationshipType": 0,
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "d3157bce-6bb5-4ab0-9670-019450f35be1"
+	},
+	"type": "RELATIONSHIP"
+}
